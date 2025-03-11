@@ -27,7 +27,7 @@ export default function AuctionForm({ auction }: Props) {
             reset({ make, model, color, mileage, year });
         }
         setFocus('make');
-    }, [setFocus])
+    }, [setFocus, auction, reset])
 
     async function onSubmit(data: FieldValues) {
         try {
@@ -47,6 +47,7 @@ export default function AuctionForm({ auction }: Props) {
                 throw res.error;
             }
             router.push(`/auctions/details/${id}`)
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } catch (error: any) {
             toast.error(error.status + ' ' + error.message)
         }
