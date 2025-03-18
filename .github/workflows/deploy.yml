@@ -13,6 +13,18 @@ jobs:
         service:
           - name: 'prostonevezu4iy/auction-svc'
             path: 'src/AuctionService'
+          - name: 'prostonevezu4iy/search-svc'
+            path: 'src/SearchService'
+          - name: 'prostonevezu4iy/bid-svc'
+            path: 'src/BidService'
+          - name: 'prostonevezu4iy/identity-svc'
+            path: 'src/IdentityService'
+          - name: 'prostonevezu4iy/gateway-svc'
+            path: 'src/GatewayService'
+          - name: 'prostonevezu4iy/notify-svc'
+            path: 'src/NotifyService'
+          - name: 'prostonevezu4iy/web-app'
+            path: 'frontend/web-app'
 
     steps:
     - name: Checkout code
