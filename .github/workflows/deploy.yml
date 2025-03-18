@@ -22,7 +22,7 @@ jobs:
           - name: 'prostonevezu4iy/gateway-svc'
             path: 'src/GatewayService'
           - name: 'prostonevezu4iy/notify-svc'
-            path: 'src/NotifyService'
+            path: 'src/NotificationService'
           - name: 'prostonevezu4iy/web-app'
             path: 'frontend/web-app'
 
