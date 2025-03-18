@@ -16,7 +16,7 @@ jobs:
           - name: 'prostonevezu4iy/search-svc'
             path: 'src/SearchService'
           - name: 'prostonevezu4iy/bid-svc'
-            path: 'src/BidService'
+            path: 'src/BiddingService'
           - name: 'prostonevezu4iy/identity-svc'
             path: 'src/IdentityService'
           - name: 'prostonevezu4iy/gateway-svc'
